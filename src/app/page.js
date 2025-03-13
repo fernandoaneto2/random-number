@@ -14,12 +14,12 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.container_central}>
-        <h1>Gerador de Número aleatório (0-100)</h1>
-        <h2>Seu número é:</h2>
+        <h1>Random Number Generator (0-100)</h1>
+        <h2>Your number is:</h2>
         <h2>{NumeroAleatório}</h2>
-        <p>Clique no botão abaixo para gerar um número aleatório</p>
+        <p>Click the button below to generate a random number</p>
         <button className={styles.btn} onClick={GerarNumeroAleatorio}>
-          Gerar Número
+          Generate Number
         </button>
       </div>
     </div>
